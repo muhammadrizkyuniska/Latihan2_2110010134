@@ -6,7 +6,7 @@ public class Mahasiswa {
     String prodi;
     
     public String getDetail(){
-        return nama;
+        return npm + nama + prodi;
     }
 
     public Mahasiswa(String npm, String nama, String prodi) {
